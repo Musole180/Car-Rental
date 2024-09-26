@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to css-->
+    <link rel="stylesheet" href="style.css">
+    <!--link to js-->
+    <script src="index.js" defer></script>
+    <!--lin to scroll review-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--For icons-->
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <title>Bawesu</title>
+</head>
+<body>
+    <!--Nabar-->
+    <nav>
+        <a href="index.html" class="brand">
+            <h1>Bawesu<b class="accent">Rides</b></h1>
+        </a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html">HOME</a>
+            <a href="collection.html">CARS</a>
+            <a href="index.html#about">ABOUT</a>
+            <a href="index.html#testimonials">REVIEWS</a>
+        </div>
+
+        <button class="btn-2" onclick="window.location.href='contact.html'">
+            Get Started
+        </button>
+
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </nav>
+    <!--Nabar End-->
+  
+    <!--Contact Section-->
+    <section class="contact">
+        <h1>Hit us up and Drive your DREAM Car!</h1>
+        <p>Have question or need assistance? Our team is here to help you
+            find the perfect ride that suits your adventure.
+        </p>
+        <form action="https://api.web3forrms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="3a8d371f-c464-41f3-892e-325a1a36a0cc">
+
+            <div class="car-select">
+                <div class="car-select-item">
+                    <label for="location">Location</label>
+                    <select name="location" 
+                    class="car-select-input" 
+                    id="location">
+
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="New Dehli">New Dehli</option>
+                    <option value="Baroda">Baroda</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Rajkot">Rajkot</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                
+                </select>
+                </div>
+                <div class="car-select-item">
+                    <label for="car-type">Car to Rent</label>
+                    <select name="car-type" 
+                    class="car-select-input" 
+                    id="car-type">
+
+                    <option value="Mercedes-AMG GTR">Mercedes-AMG GTR</option>
+                    <option value="BMW M8 Competition">BMW M8 Competition</option>
+                    <option value="Mercedes G Class">Mercedes G Class</option>
+                    <option value="Toyota Mark X">Toyota Mark X</option>
+                    <option value="Rolls Royce Phantom">Rolls Royce Phantom</option>
+                    <option value="Ford Ranger">Ford Ranger</option>
+                    <option value="Dodge Hellcat">Dodge Hellcat</option>
+                    <option value="Audi A8">Audi A8</option>
+                    <option value="Morris Garages">Morris Garages</option>
+                    <option value="Toyota Fortuner">Toyota Fortuner</option>
+                    <option value="BMW X7">BMW X7</option>
+                    <option value="Lamborghini Urus">Lamborghini Urus</option>
+                    <option value="Mclaren P1">Mclaren P1</option>
+                    <option value="Supra MK5">Supra MK5</option>
+                
+                </select>
+                </div>
+                <div class="car-select-item">
+                    <label for="date">Date:</label>
+                    <input type="date" 
+                    class="car-select-input" 
+                    id="date">
+                </div>
+            </div>
+            <div class="contact-form">
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="phone" name="phone" placeholder="Phone" required />
+                <button type="submit" class="btn-2">Submit</button>
+            </div>
+        </form>
+
+    </section>
+   
+    <!--Contact Section End-->
+
+     <!--Footer Section-->
+     <footer class="collection-footer">
+        <div class="callout">
+            <h2>Drive with BawesuRides Today</h2>
+            <p>
+                Need Assistance or ready to reserve wheels? Contact for 
+                prompt service and effortless booking!
+            </p>
+            <div class="callout-buttons">
+                <button class="btn-2 btn-callout" onclick="window.location.href='collection.html'">
+                    <p>Check our Cars</p>
+                    <i class="fa-solid fa-arrow-righ-long"></i>
+                </button>
+
+                <button class="btn-2 btn-callout  btn-callout-black" 
+                onclick="window.location.href='contact.html'">
+                    <p>Book Now</p>
+                    <i class="fa-solid fa-phone"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a href="/" class="footer-brand">Bawesu<b class="accent">Rides</b></a>
+            <div class="sicials">
+                <a href = "/" class="social item">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href = "/" class="socialiteam">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href = "/" class="social item">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href = "/" class="social item">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+     </footer>
+     <!--Footer Section End-->
+</body>
+</html>

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to css-->
+    <link rel="stylesheet" href="style.css">
+    <!--link to js-->
+    <script src="index.js" defer></script>
+    <!--lin to scroll review-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--For icons-->
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <title>Bawesu</title>
+</head>
+<body>
+    <!--Nabar-->
+    <nav>
+        <a href="index.html" class="brand">
+            <h1>Bawesu<b class="accent">Rides</b></h1>
+        </a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html">HOME</a>
+            <a href="collection.html">CARS</a>
+            <a href="#about">ABOUT</a>
+            <a href="#review">REVIEWS</a>
+        </div>
+
+        <button class="btn-2" onclick="window.location.href='contact.html'">
+            Get Started
+        </button>
+
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </nav>
+    <!--Nabar End-->
+
+    <!--Hero Section-->
+    <div class="hero-page">
+        <div class="hero-headlines">
+            <h1>
+                The best neighborhood <b class="accent">Car Rental</b>Service.
+            </h1>
+            <p>
+                We offer the best, easy and most reliable way to rental your favorite rides.
+                <br>Best for weekend, travel and business trips
+            </p>
+            <button
+                class="btn-2 btn-hero"
+                onclick="window.location.href='contact.html'">
+                Get Started
+            </button>
+            <div class="download-buttons">
+                <img src="img/app_store_img.png" alt="image"/>
+                <img src="img/google_play_img.png" alt="image"/>
+            </div>
+        </div>
+        <img src="img/hero_img.jpg" class="hero-page-image" alt="image"/>
+    </div>
+    <!--Hero Section End-->
+
+    <!--About Section-->
+    <section class="about" id="about">
+        <div class="about-container">
+            <h1>
+                Your best choice for the easiest car rental
+            </h1>
+            <p class="about-subline">
+                "Unlock your adventure with our premium car rentals. 
+                Drive in comfort, explore freely, and create 
+                unforgettable memories on every journey."
+            </p>
+            <div class="about-info">
+                <div class="about-info-item">
+                    <hr class="about-hr"/>
+                    <img src="img/about-info-item-1.png" alt="img"/>
+                    <h5>Efficiency</h5>
+                    <p> 
+                        Quick, hassle-free booking, reliable vehicles, and exceptional 
+                        service for every journey.
+                    </p>
+                </div>
+                <div class="about-info-item">
+                    <hr class="about-hr"/>
+                    <img src="img/about-info-item-2.png" alt="img"/>
+                    <h5>Diverse Fleet</h5>
+                    <p>
+                        From luxury to economy, find the ideal car for every journey and budget.
+                    </p>
+                </div>
+                <div class="about-info-item">
+                    <hr class="about-hr"/>
+                    <img src="img/about-info-item-3.png" alt="img"/>
+                    <h5>Exceptional Service</h5>
+                    <p>
+                        Personalized support, seamless booking, and dedicated care for a superior driving experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section End-->
+
+    <!--Collection Section-->
+    <section class="collection" id="collection">
+        <h1>Our Car Collections</h1>
+
+        <div class="collection-container">
+            <!--Car #1-->
+            <div class="collection-car-item">
+                <img src="img/cars/car-1.jpg" alt="img">
+                <div class="car-info-container">
+                    <div class="car-info">
+                        <div class="car-price">
+                            <h5>$80.00</h5>
+                            <h6>/Day</h6>
+                        </div>
+                        <div class="car-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h6>Mumbai</h6>
+                        </div>
+                    </div>
+                    <h2>Mercedes-AMG GTR</h2>
+                    <button class="btn-2 btn-car">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+             <!--Car #2-->
+             <div class="collection-car-item">
+                <img src="img/cars/car-2.jpg" alt="img">
+                <div class="car-info-container">
+                    <div class="car-info">
+                        <div class="car-price">
+                            <h5>$95.00</h5>
+                            <h6>/Day</h6>
+                        </div>
+                        <div class="car-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h6>Ahmedabad</h6>
+                        </div>
+                    </div>
+                    <h2>BMW M8 Competition</h2>
+                    <button class="btn-2 btn-car">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+             <!--Car #3-->
+             <div class="collection-car-item">
+                <img src="img/cars/car-3.jpg" alt="img">
+                <div class="car-info-container">
+                    <div class="car-info">
+                        <div class="car-price">
+                            <h5>$75.00</h5>
+                            <h6>/Day</h6>
+                        </div>
+                        <div class="car-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h6>Chennai</h6>
+                        </div>
+                    </div>
+                    <h2>Mercedes G Class</h2>
+                    <button class="btn-2 btn-car">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!--Car #4-->
+            <div class="collection-car-item">
+                <img src="img/cars/car-4.jpg" alt="img">
+                <div class="car-info-container">
+                    <div class="car-info">
+                        <div class="car-price">
+                            <h5>$40.00</h5>
+                            <h6>/Day</h6>
+                        </div>
+                        <div class="car-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h6>New Dehli</h6>
+                        </div>
+                    </div>
+                    <h2>Toyota Mark X</h2>
+                    <button class="btn-2 btn-car">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+             <!--Car #5-->
+             <div class="collection-car-item">
+                <img src="img/cars/car-5.jpg" alt="img">
+                <div class="car-info-container">
+                    <div class="car-info">
+                        <div class="car-price">
+                            <h5>$100.00</h5>
+                            <h6>/Day</h6>
+                        </div>
+                        <div class="car-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h6>Mumbai</h6>
+                        </div>
+                    </div>
+                    <h2>Rolls Royce Phantom</h2>
+                    <button class="btn-2 btn-car">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!--Car #6-->
+            <div class="collection-car-item">
+                <img src="img/cars/car-6.jpg" alt="img">
+                <div class="car-info-container">
+                    <div class="car-info">
+                        <div class="car-price">
+                            <h5>$68.00</h5>
+                            <h6>/Day</h6>
+                        </div>
+                        <div class="car-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h6>Pune</h6>
+                        </div>
+                    </div>
+                    <h2>Ford Ranger</h2>
+                    <button class="btn-2 btn-car">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+        <button class="btn-car btn-herocar">
+            <p>See All Cars</p>
+            <i class="fa-solid fa-arrow-righ-long"></i>
+        </button>
+    </section>
+    <!--Collection Section End-->
+
+    <!-- Review Section-->
+     <section class="review" id="review">
+        <h1>Hear what our clients say </h1>
+
+        <div class="review-container">
+            <!--Review #1-->
+            <div class="review-item">
+                <p>
+                    Renting with <b class="accent">BawesuRides</b> was an absolute breeze!
+                    From booking online to picking up the car,everything was smooth and 
+                    efficient.
+                </p>
+                <div class="review-people">
+                    <img src="img/testimonial-1.jpg" alt="img"/>
+                    <h5>Anthony Kasonde</h5>
+                </div>
+            </div>
+
+            <!--Review #2-->
+            <div class="review-item">
+                <p>
+                   I can't recommend <b class="accent">BawesuRides</b> more.
+                   This is the best car rental application i've used so far.
+                </p>
+                <div class="review-people">
+                    <img src="img/testimonial-2.jpg" alt="img"/>
+                    <h5>Jedson Runyoro</h5>
+                </div>
+            </div>
+
+            <!--Review #3-->
+            <div class="review-item">
+                <p>
+                    <b class="accent">BawesuRides</b> is the go to car rental app. 
+                    Deffinitely recommend it for all types of car rental needs.
+                </p>
+                <div class="review-people">
+                    <img src="img/testimonial-3.jpg" alt="img"/>
+                    <h5>Prince Musole</h5>
+                </div>
+            </div>
+
+        </div>
+     </section>
+     <!-- Review Section End-->
+
+     <!--Footer Section-->
+     <footer class="index-footer">
+        <div class="callout">
+            <h2>Drive with BawesuRides Today</h2>
+            <p>
+                Need Assistance or ready to reserve wheels? Contact for 
+                prompt service and effortless booking!
+            </p>
+            <div class="callout-buttons">
+                <button class="btn-z btn-callout" onclick="window.location.href='collection.html'">
+                    <p>Check our Cars</p>
+                    <i class="fa-solid fa-arrow-righ-long"></i>
+                </button>
+
+                <button class="btn-2 btn-callout  btn-callout-black" 
+                onclick="window.location.href='contact.html'">
+                    <p>Book Now</p>
+                    <i class="fa-solid fa-phone"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a href="/" class="footer-brand">Bawesu<b class="accent">Rides</b></a>
+            <div class="sicials">
+                <a href = "/" class="social item">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href = "/" class="socialiteam">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href = "/" class="social item">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href = "/" class="social item">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+     </footer>
+     <!--Tooter Section End-->
+</body>
+</html>

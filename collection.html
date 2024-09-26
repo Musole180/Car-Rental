@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to css-->
+    <link rel="stylesheet" href="style.css">
+    <!--link to js-->
+    <script src="index.js" defer></script>
+    <!--lin to scroll review-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--For icons-->
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <title>Bawesu</title>
+</head>
+<body>
+    <!--Nabar-->
+    <nav>
+        <a href="index.html" class="brand">
+            <h1>Bawesu<b class="accent">Rides</b></h1>
+        </a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html">HOME</a>
+            <a href="collection.html">CARS</a>
+            <a href="index.html#about">ABOUT</a>
+            <a href="index.html#testimonials">REVIEWS</a>
+        </div>
+
+        <button class="btn-2" onclick="window.location.href='contact.html'">
+            Get Started
+        </button>
+
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </nav>
+    <!--Nabar End-->
+  
+    <!--Collection Section-->
+
+    <section class="collcetion" id="collection-page">
+
+
+        <!--Sedans-->
+        <div class="collection-category">
+            <h1>Sedans</h1>
+            <hr />
+            <div class="collection-container">
+                <!--Car #1-->
+                <div class="collection-car-item" id="collection-car-item-page">
+                    <img
+                    src="img/cars/car-2.jpg"
+                    alt="img"
+                    id="collection-page-img"
+                    />
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$95.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Ahmedabad</h6>
+                            </div>
+                        </div>
+                        <h2>BMW M8 Competition</h2>
+                        <button class="btn-2 btn-car btn-collection-page"
+                        onclick="window.location.href='contact.html'">
+                        Book Now
+                    </button>
+                    </div>
+                </div>
+
+                 <!--Car #2-->
+                 <div class="collection-car-item" id="collection-car-item-page">
+                    <img
+                    src="img/cars/car-1.jpg"
+                    alt="img"
+                    id="collection-page-img"
+                    />
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$80.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Mumbai</h6>
+                            </div>
+                        </div>
+                        <h2>Mercedes-AMG GTR</h2>
+                        <button class="btn-2 btn-car btn-collection-page"
+                        onclick="window.location.href='contact.html'">
+                        Book Now
+                    </button>
+                    </div>
+                </div>
+
+                 <!--Car #3-->
+                 <div class="collection-car-item" id="collection-car-item-page">
+                    <img
+                    src="img/cars/car-4.jpg"
+                    alt="img"
+                    id="collection-page-img"
+                    />
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$40.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>New Dehli</h6>
+                            </div>
+                        </div>
+                        <h2>Toyota Mark X</h2>
+                        <button class="btn-2 btn-car btn-collection-page"
+                        onclick="window.location.href='contact.html'">
+                        Book Now
+                    </button>
+                    </div>
+                </div>
+
+                 <!--Car #4-->
+                 <div class="collection-car-item" id="collection-car-item-page">
+                    <img
+                    src="img/cars/car-7.jpg"
+                    alt="img"
+                    id="collection-page-img"
+                    />
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$55.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Hyderabad</h6>
+                            </div>
+                        </div>
+                        <h2>Audi A8</h2>
+                        <button class="btn-2 btn-car btn-collection-page"
+                        onclick="window.location.href='contact.html'">
+                        Book Now
+                    </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--SUV's-->
+        <div class="collection-category">
+            <h1>SUV's</h1>
+            <hr />
+            <div class="collection-container">
+                <!--Car #1-->
+                <div class="collection-car-item" id="collection-car-item-page">
+                    <img
+                    src="img/cars/car-8.jpg"
+                    alt="img"
+                    id="collection-page-img"
+                    />
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$88.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Rajkot</h6>
+                            </div>
+                        </div>
+                        <h2>Morris Garages</h2>
+                        <button class="btn-2 btn-car btn-collection-page"
+                        onclick="window.location.href='contact.html'">
+                        Book Now
+                    </button>
+                    </div>
+                </div>
+
+                 <!--Car #2-->
+                 <div class="collection-car-item" id="collection-car-item-page">
+                    <img
+                    src="img/cars/car-9.jpg"
+                    alt="img"
+                    id="collection-page-img"
+                    />
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$55.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Rajkot</h6>
+                            </div>
+                        </div>
+                        <h2>Toyota Fortuner</h2>
+                        <button class="btn-2 btn-car btn-collection-page"
+                        onclick="window.location.href='contact.html'">
+                        Book Now
+                    </button>
+                    </div>
+                </div>
+
+                 <!--Car #3-->
+                 <div class="collectio-car-item" id="collectio-car-item-page">
+                    <img
+                    src="img/cars/car-11.jpg"
+                    alt="img"
+                    id="collection-page-img"
+                    />
+                    <div class="car-info-container">
+                        <div class="cra-info">
+                            <div class="car-price">
+                                <h5>$90.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Baroda</h6>
+                            </div>
+                        </div>
+                        <h2>BMW X7</h2>
+                        <button class="btn-2 btn-car btn-collection-page"
+                        onclick="window.location.href='contact.html'">
+                        Book Now
+                    </button>
+                    </div>
+                </div>
+
+                 <!--Car #4-->
+                 <div class="collectio-car-item" id="collectio-car-item-page">
+                    <img
+                    src="img/cars/car-12.jpg"
+                    alt="img"
+                    id="collection-page-img"
+                    />
+                    <div class="car-info-container">
+                        <div class="cra-info">
+                            <div class="car-price">
+                                <h5>$120.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Hyderabad</h6>
+                            </div>
+                        </div>
+                        <h2>Lamborghini Urus</h2>
+                        <button class="btn-2 btn-car btn-collection-page"
+                        onclick="window.location.href='contact.html'">
+                        Book Now
+                    </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+         <!--Sports Cars-->
+         <div class="collection-category">
+            <h1>Sports Cars</h1>
+            <hr />
+            <div class="collection-container">
+                <!--Car #1-->
+                <div class="collectio-car-item" id="collectio-car-item-page">
+                    <img
+                    src="img/cars/car-10.jpg"
+                    alt="img"
+                    id="collection-page-img"
+                    />
+                    <div class="car-info-container">
+                        <div class="cra-info">
+                            <div class="car-price">
+                                <h5>$180.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Mumbai</h6>
+                            </div>
+                        </div>
+                        <h2>Mclaren P1</h2>
+                        <button class="btn-2 btn-car btn-collection-page"
+                        onclick="window.location.href='contact.html'">
+                        Book Now
+                    </button>
+                    </div>
+                </div>
+
+                 <!--Car #2-->
+                 <div class="collectio-car-item" id="collectio-car-item-page">
+                    <img
+                    src="img/cars/car-13.jpg"
+                    alt="img"
+                    id="collection-page-img"
+                    />
+                    <div class="car-info-container">
+                        <div class="cra-info">
+                            <div class="car-price">
+                                <h5>$175.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Mumbai</h6>
+                            </div>
+                        </div>
+                        <h2>Supra MK5</h2>
+                        <button class="btn-2 btn-car btn-collection-page"
+                        onclick="window.location.href='contact.html'">
+                        Book Now
+                    </button>
+                    </div>
+                </div>
+
+                 <!--Car #3-->
+                 <div class="collectio-car-item" id="collectio-car-item-page">
+                    <img
+                    src="img/cars/car-14.jpg"
+                    alt="img"
+                    id="collection-page-img"
+                    />
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$180.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>New Dehli</h6>
+                            </div>
+                        </div>
+                        <h2>Dodge Hellcat</h2>
+                        <button class="btn-2 btn-car btn-collection-page"
+                        onclick="window.location.href='contact.html'">
+                        Book Now
+                    </button>
+                    </div>
+                </div>
+
+                 <!--Car #4-->
+                 <div class="collection-car-item" id="collection-car-item-page">
+                    <img
+                    src="img/cars/car-12.jpg"
+                    alt="img"
+                    id="collection-page-img"
+                    />
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$200.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Hyderabad</h6>
+                            </div>
+                        </div>
+                        <h2>Lamborghini Urus</h2>
+                        <button class="btn-2 btn-car btn-collection-page"
+                        onclick="window.location.href='contact.html'">
+                        Book Now
+                    </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!--Collection Section End-->
+
+     <!--Footer Section-->
+     <footer class="contact-footer">
+        <div class="callout">
+            <h2>Drive with BawesuRides Today</h2>
+            <p>
+                Need Assistance or ready to reserve wheels? Contact for 
+                prompt service and effortless booking!
+            </p>
+            <div class="callout-buttons">
+                <button class="btn-2 btn-callout" onclick="window.location.href='collection.html'">
+                    <p>Check our Cars</p>
+                    <i class="fa-solid fa-arrow-righ-long"></i>
+                </button>
+
+                <button class="btn-2 btn-callout  btn-callout-black" 
+                onclick="window.location.href='contact.html'">
+                    <p>Book Now</p>
+                    <i class="fa-solid fa-phone"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a href="/" class="footer-brand">Bawesu<b class="accent">Rides</b></a>
+            <div class="sicials">
+                <a href = "/" class="social item">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href = "/" class="socialiteam">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href = "/" class="social item">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href = "/" class="social item">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+     </footer>
+     <!--Footer Section End-->
+</body>
+</html>
